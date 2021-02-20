@@ -29,14 +29,19 @@ body{
 }
 
 .authorization_form{
-    margin-left: 75px;
+    width: 450px;
+    margin: 0 auto;
     margin-top: 50px;
+    outline: 4px solid green;
+    border: 25px solid yellow;
 }
 
 .reg_interview{
     width: 300px;
     margin: 0 auto;
     margin-top: 50px;
+    outline: 4px solid green;
+    border: 25px solid yellow;
 }
 
 .headerMenu li a{

@@ -38,6 +38,11 @@ li{
     padding-left: 15px;
 }
 
+.link_reg_interview{
+    background: pink;
+    padding-left: 15px;
+}
+
 .link_ferrari{
     display: inline-block;
     background: red;

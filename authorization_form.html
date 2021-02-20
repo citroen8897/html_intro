@@ -14,28 +14,29 @@
   <li><p class="link_about_us"><a href="about us.html">О нас</a></p></li>
   <li><p class="link_delivery"><a href="delivery.html">Доставка</a></p></li>
   <li><p class="link_authorization"><a href="authorization_form.html">Авторизация</a></p></li>
+  <li><p class="link_reg_interview"><a href="registration_form_interview.html">Интервью</a></p></li>
 </ul>
 
-<form class="authorization_form">
+<form class="authorization_form" action="authorization_info.html" method="post">
     <div>
-        <input type="text" placeholder="Логин">
+        <input type="text" placeholder="Логин" name="login" required>
     </div>
     <div>
-        <input type="password" placeholder="Пароль">
+        <input type="password" placeholder="Пароль" name="password" required minlength="8" maxlength="10">
     </div>
     <br>
     <div>
        <span>Соглашаюсь с правилами сайта</span>
-       <input type="checkbox">
+       <input type="checkbox" required>
     </div>
     <br><br>
     <div>
         <span>Участвовать в розыграше Ferrari F430 Spider</span>
-        <input type="radio" name="gift" value="Oui">
+        <input type="radio" name="gift" value="Oui" required>
     </div>
     <div>
         <span>Игнорировать розыграш</span>
-        <input type="radio" name="gift" value="Non">
+        <input type="radio" name="gift" value="Non" required>
     </div>
     <br>
     <div>

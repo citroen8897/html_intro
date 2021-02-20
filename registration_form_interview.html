@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрация на интервью</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<ul class="headerMenu">
+  <li><p class="link_main"><a href="index.html">Главная</a></p></li>
+  <li><p class="link_google"><a href="http://google.com">google</a></p></li>
+  <li><p class="link_contacts"><a href="contacts.html">Контакты</a></p></li>
+  <li><p class="link_about_us"><a href="about us.html">О нас</a></p></li>
+  <li><p class="link_delivery"><a href="delivery.html">Доставка</a></p></li>
+  <li><p class="link_authorization"><a href="authorization_form.html">Авторизация</a></p></li>
+  <li><p class="link_reg_interview"><a href="registration_form_interview.html">Интервью</a></p></li>
+</ul>
+
+<form class="reg_interview" action="" method="post" enctype="multipart/form-data">
+    <div>
+        <input type="text" placeholder="Логин" name="login" required>
+    </div>
+    <br>
+    <div>
+        <input type="password" placeholder="Пароль" name="password" required minlength="6" maxlength="10">
+    </div>
+    <br>
+    <div>
+        Выберите Ваш пол:
+        <span>М</span>
+        <input type="radio" name="sex" value="М" required>
+        <span>Ж</span>
+        <input type="radio" name="sex" value="Ж" required>
+    </div>
+    <br>
+    <div>
+        <select name="user_city" id="" required>
+            <option value="">Выберите Ваш город</option>
+            <option value="0">Москва</option>
+            <option value="1">Санкт-Петербург</option>
+            <option value="2">Пермь</option>
+            <option value="3">Уфа</option>
+            <option value="4">Владивосток</option>
+            <option value="5">Хабаровск</option>
+            <option value="6">Краснодар</option>
+            <option value="7">Ижевск</option>
+            <option value="8">Иркутск</option>
+            <option value="9">Екатеринбург</option>
+        </select>
+    </div>
+    <br>
+    <div>
+        <textarea placeholder="Сопроводительное письмо" name="user_info_lettre" cols="31" rows="10" required></textarea>
+    </div>
+    <br>
+    <p><input type="file" name="f" required></p>
+    <br>
+    <button type="submit">
+        Зарегистрироваться
+    </button>
+</form>
+
+</body>
+</html>

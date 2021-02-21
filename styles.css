@@ -1,5 +1,5 @@
 body{
-    background: yellow;
+    background: #a6c285;
 }
 
 .link_ferrari{
@@ -22,7 +22,7 @@ body{
 
 .headerMenu li{
     display: inline-block;
-    background: pink;
+    background: a6c285;
     width: 145px;
     text-align: center;
     margin-right: 40px;
@@ -33,7 +33,7 @@ body{
     margin: 0 auto;
     margin-top: 50px;
     outline: 4px solid green;
-    border: 25px solid yellow;
+    border: 25px solid #a6c285;
 }
 
 .reg_interview{
@@ -41,7 +41,7 @@ body{
     margin: 0 auto;
     margin-top: 50px;
     outline: 4px solid green;
-    border: 25px solid yellow;
+    border: 25px solid #a6c285;
 }
 
 .headerMenu li a{
@@ -58,5 +58,5 @@ body{
     height: 2px;
     background: green;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 25px;
 }

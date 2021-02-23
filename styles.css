@@ -60,3 +60,47 @@ body{
     margin: 0 auto;
     margin-top: 25px;
 }
+
+.page_content{
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.line_un{
+    display: flex;
+    justify-content: space-between;
+}
+
+.line_deux{
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.line_trois{
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.head_market_un{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.object{
+    outline: 2px solid green;
+    border: 10px solid #a6c285;
+}
+
+.object p{
+    text-align: center;
+}
+
+.object button{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
